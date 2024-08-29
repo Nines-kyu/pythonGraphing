@@ -1,3 +1,7 @@
+# Developer: Navi Rosca - Ivan Christopher Rosca
+# Email: nines.kyu.jp@gmail.com
+# Github: Nines九 @Nines-kyu
+
 import sys
 from PyQt5.QtWidgets import QApplication
 from MainWindow import MainWindow
