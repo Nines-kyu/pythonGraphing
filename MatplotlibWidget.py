@@ -24,7 +24,7 @@ class MatplotlibWidget(QWidget):
         # Clear the previous plot
         self.ax.clear()
 
-        color = '#FF7F50'
+        color = '#fb9111'
 
         # Plot new data based on selected type
         if plot_type == 'Line Plot':
