@@ -1,10 +1,18 @@
-from PyQt5.QtWidgets import QMainWindow, QVBoxLayout, QWidget, QFormLayout, QLineEdit, QPushButton, QComboBox
+from PyQt5.QtWidgets import QMainWindow, QVBoxLayout, QWidget, QFormLayout, QLineEdit, QPushButton, QComboBox, QApplication
+from PyQt5.QtCore import Qt
 from MatplotlibWidget import MatplotlibWidget
-
+import sys
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+
+        # Set initial window size and title
+        self.setWindowTitle("Python Graphing")
+        self.resize(700, 600)
+
+        # Center the window
+        self.center()
 
         # Create the main widget and layout
         self.main_widget = QWidget(self)
@@ -34,6 +42,20 @@ class MainWindow(QMainWindow):
 
         # Connect button click event
         self.plot_button.clicked.connect(self.update_plot)
+
+    def center(self):
+        # Get the screen geometry and the window geometry
+        screen_geometry = QApplication.primaryScreen().availableGeometry()
+        window_geometry = self.frameGeometry()
+
+        # Calculate the center point of the screen
+        center_point = screen_geometry.center()
+
+        # Move the window’s rectangle to the center point of the screen
+        window_geometry.moveCenter(center_point)
+
+        # Set the window position to the calculated top-left point
+        self.move(window_geometry.topLeft())
 
     def update_plot(self):
         # Get user input
