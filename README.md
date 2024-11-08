@@ -9,5 +9,10 @@ This is a simple Data Graphing Application that uses Python and Matplotlib.
   ![image](https://github.com/user-attachments/assets/2ce0fd04-5744-439a-a612-2f7e55d08b9d)
   ![image](https://github.com/user-attachments/assets/05207be0-05dd-42a1-8e46-405b2890e3f6)
 
+  10/3/24 - Color Changed
+  -------
+  ![image](https://github.com/user-attachments/assets/f14d6969-bbc8-4310-876c-6503c7f9dcb5)
+
+
 
 - You may also edit the program configuration at your own customization.
