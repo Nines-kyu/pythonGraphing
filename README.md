@@ -13,6 +13,9 @@ This is a simple Data Graphing Application that uses Python and Matplotlib.
   -------
   ![image](https://github.com/user-attachments/assets/f14d6969-bbc8-4310-876c-6503c7f9dcb5)
 
+  06/09/25 - Color Reverted
+  -------
+  ![image](https://github.com/user-attachments/assets/5de7e60e-a0aa-45c7-ad9f-27b2c54afb4c)
 
 
 - You may also edit the program configuration at your own customization.
